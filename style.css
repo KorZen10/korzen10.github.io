@@ -1,0 +1,166 @@
+body {
+    background-image: url('portfolio background.png'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-color: #ffccaa;
+    align-items: center;
+    text-align: center;
+    font-family: bahnschrift;
+    font-size: 30px;
+    filter: drop-shadow(-3px 3px 1px black);
+    color: white;
+
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.orange {
+    color: #ffccaa;
+}
+
+.section-header {
+    font-size: 100px;
+    margin-top: 100px;
+}
+
+.text-image-flex {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.text-image-block {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    justify-content: center;
+    text-align: left;
+}
+
+#first-block-img {
+    width: 360px;
+    height: 360px;
+    margin-right: 20px;
+}
+
+.images-flex {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.image-travel {
+    flex: 1 1 0;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#korzen-logo {
+    width: 110px;
+    height: 125px;
+    margin-right: 20px;
+}
+
+#yt-spotify-container {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yt-spotify {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.link span {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.images-education-flex {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-education {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    width: min(75%, 900px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.caption span {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.caption .link {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
